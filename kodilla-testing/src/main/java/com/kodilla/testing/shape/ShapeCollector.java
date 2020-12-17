@@ -7,23 +7,30 @@ public class ShapeCollector {
 
     private List<Shape> shapeCollector = new ArrayList<>();
 
-    public ShapeCollector(List<Shape> shapeCollector) {
-        this.shapeCollector = shapeCollector;
-    }
+    public ShapeCollector(){}
 
     public void addFigure(Shape shape) {
-        //adding shape
+        //TODO adding shape
+        this.shapeCollector.add(shape);
     }
 
-    public void removeFigure(Shape shape) {
-        //deleting shape
+    public boolean removeFigure(Shape shape) {
+        //TODO deleting shape
+        return true;
     }
 
     public Shape getFigure(int n) {
+        //TODO return shape
         return null;
     }
 
-    public void ShowFigures() {
-        //show all figures
+    public String ShowFigures() {
+        //TODO show all figures in 1 String
+        return "test";
+    }
+
+    public int getFiguresQuantity() {
+        //TODO get current array size
+        return 100;
     }
 }

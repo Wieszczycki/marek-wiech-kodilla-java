@@ -5,10 +5,13 @@ import org.junit.jupiter.api.*;
 
 @DisplayName("Forum Test Suite")
 public class ForumTestSuite {
+    SimpleUser simpleUser = null;
 
     @BeforeEach
     public void before() {
+
         System.out.println("Test Case: begin");
+        simpleUser = new SimpleUser("Jerry", "Ewa Kowalska");
     }
 
     @AfterEach
