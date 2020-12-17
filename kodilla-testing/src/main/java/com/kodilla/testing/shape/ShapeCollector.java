@@ -2,6 +2,7 @@ package com.kodilla.testing.shape;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ShapeCollector {
 
@@ -10,27 +11,39 @@ public class ShapeCollector {
     public ShapeCollector(){}
 
     public void addFigure(Shape shape) {
-        //TODO adding shape
-        this.shapeCollector.add(shape);
+        shapeCollector.add(shape);
     }
 
     public boolean removeFigure(Shape shape) {
-        //TODO deleting shape
-        return true;
+        boolean result = false;
+        if (shapeCollector.contains(shape)) {
+            shapeCollector.remove(shape);
+            result = true;
+        }
+        return result;
     }
 
     public Shape getFigure(int n) {
-        //TODO return shape
+        if (n >= 0 && n < shapeCollector.size()) {
+            return shapeCollector.get((n));
+        }
         return null;
     }
 
     public String ShowFigures() {
-        //TODO show all figures in 1 String
-        return "test";
+
+        String result = "";
+
+        for (Shape s: shapeCollector) {
+            result += s.getShapeName() + ", ";
+        }
+        result = result.substring(0, result.length() - 2);
+        System.out.println(result);
+
+        return result;
     }
 
     public int getFiguresQuantity() {
-        //TODO get current array size
-        return 100;
+        return shapeCollector.size();
     }
 }
