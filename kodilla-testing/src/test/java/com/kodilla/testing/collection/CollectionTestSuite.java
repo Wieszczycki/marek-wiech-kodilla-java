@@ -18,7 +18,7 @@ public class CollectionTestSuite {
         testCounter++;
         System.out.println("Collection Case: test #" + testCounter);
 
-        //ShapeCollector shapeCollector = new ShapeCollector();
+        shapeCollector = new ShapeCollector();
     }
 
     @AfterEach
@@ -46,7 +46,7 @@ public class CollectionTestSuite {
         @Test
         void testAddFigure() {
             //Given
-            ShapeCollector shapeCollector = new ShapeCollector();
+            //ShapeCollector shapeCollector = new ShapeCollector();
 
             //When
             Circle c = new Circle("Circle1",10.0);
@@ -61,7 +61,7 @@ public class CollectionTestSuite {
         @Test
         void testRemoveFigure() {
             //Given
-            ShapeCollector shapeCollector = new ShapeCollector();
+            //ShapeCollector shapeCollector = new ShapeCollector();
             boolean result;
 
             //When
@@ -78,7 +78,7 @@ public class CollectionTestSuite {
         @Test
         void testRemoveNonexistingFigure() {
             //Given
-            ShapeCollector shapeCollector = new ShapeCollector();
+            //ShapeCollector shapeCollector = new ShapeCollector();
             boolean result;
 
             //When
@@ -97,7 +97,7 @@ public class CollectionTestSuite {
         @Test
         void testGetFigure() {
             //Given
-            ShapeCollector shapeCollector = new ShapeCollector();
+            //ShapeCollector shapeCollector = new ShapeCollector();
 
             //When
             Circle c = new Circle("Circle1",10.0);
@@ -117,7 +117,7 @@ public class CollectionTestSuite {
         @Test
         void testShowFigures() {
             //Given
-            ShapeCollector shapeCollector = new ShapeCollector();
+            //ShapeCollector shapeCollector = new ShapeCollector();
 
             //When
             Circle c = new Circle("Circle1",10.0);
