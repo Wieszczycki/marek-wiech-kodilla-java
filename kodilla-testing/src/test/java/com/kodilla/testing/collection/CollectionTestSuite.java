@@ -3,6 +3,7 @@ package com.kodilla.testing.collection;
 import com.kodilla.testing.shape.*;
 import org.junit.jupiter.api.*;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,14 +12,14 @@ public class CollectionTestSuite {
 
     private static int testCounter = 0;
 
-    ShapeCollector shapeCollector = null;
+    OddNumbersExterminator test = null;
 
     @BeforeEach
     public void before() {
         testCounter++;
         System.out.println("Collection Case: test #" + testCounter);
 
-        shapeCollector = new ShapeCollector();
+        OddNumbersExterminator test = new OddNumbersExterminator();
     }
 
     @AfterEach
@@ -39,99 +40,43 @@ public class CollectionTestSuite {
     }
 
     @Nested
-    @DisplayName("Tests for shapeCollector")
-    class TestShapeCollector {
+    @DisplayName("Tests for OddNumbersExterminator")
+    class OddNumbersExterminatorTestSuite {
 
-        @DisplayName("Adding figure should result in 1 figure inside Array")
+        @DisplayName("Testing empty list")
         @Test
-        void testAddFigure() {
+        void testOddNumbersExterminatorEmptyList() {
             //Given
-            //ShapeCollector shapeCollector = new ShapeCollector();
+            OddNumbersExterminator test = new OddNumbersExterminator();
+            ArrayList<Integer> l = new ArrayList<>();
 
             //When
-            Circle c = new Circle("Circle1",10.0);
-            shapeCollector.addFigure(c);
-            Shape expected = c;
+            ArrayList<Integer> expected = new ArrayList<>();
 
             //Then
-            Assertions.assertEquals(expected, shapeCollector.getFigure(0));
+            Assertions.assertEquals(expected, test.exterminate(l));
         }
 
-        @DisplayName("Removing figure should result in 0 figures inside Array")
+        @DisplayName("Testing empty list")
         @Test
-        void testRemoveFigure() {
+        void testOddNumbersExterminatorNormalList() {
             //Given
-            //ShapeCollector shapeCollector = new ShapeCollector();
-            boolean result;
+            ArrayList<Integer> input = new ArrayList<>() {{
+                add(3);
+                add(2);
+                add(10);
+                add(1);
+                add(8);
+            }};
+            OddNumbersExterminator test = new OddNumbersExterminator();
+            List<Integer> expected = List.of(2, 10, 8);
 
             //When
-            Triangle t = new Triangle("Triangle1",20.0);
-            shapeCollector.addFigure(t);
-            result = shapeCollector.removeFigure(t);
-            int expected = 0;
-
-            //Then
-            Assertions.assertEquals(expected, shapeCollector.getFiguresQuantity());
-        }
-
-        @DisplayName("Removing non-existing figure should result in false result")
-        @Test
-        void testRemoveNonexistingFigure() {
-            //Given
-            //ShapeCollector shapeCollector = new ShapeCollector();
-            boolean result;
-
-            //When
-            Triangle t = new Triangle("Triangle1",20.0);
-            shapeCollector.addFigure(t);
-            Square s = new Square("Square1", 30.0);
-            result = shapeCollector.removeFigure(s);
-            boolean expected = false;
+            List<Integer> result = test.exterminate(input);
 
             //Then
             Assertions.assertEquals(expected, result);
         }
 
-
-        @DisplayName("Getting figure n should result in correct figure in response")
-        @Test
-        void testGetFigure() {
-            //Given
-            //ShapeCollector shapeCollector = new ShapeCollector();
-
-            //When
-            Circle c = new Circle("Circle1",10.0);
-            shapeCollector.addFigure(c);
-            Triangle t = new Triangle("Triangle1",20.0);
-            shapeCollector.addFigure(t);
-            Square s = new Square("Square1", 30.0);
-            shapeCollector.addFigure(s);
-            Shape expected = t;
-            Shape result = shapeCollector.getFigure(1);
-
-            //Then
-            Assertions.assertEquals(expected, result);
-        }
-
-        @DisplayName("Should display all figures names in 1 String")
-        @Test
-        void testShowFigures() {
-            //Given
-            //ShapeCollector shapeCollector = new ShapeCollector();
-
-            //When
-            Circle c = new Circle("Circle1",10.0);
-            shapeCollector.addFigure(c);
-            Triangle t = new Triangle("Triangle1",20.0);
-            shapeCollector.addFigure(t);
-            Square s = new Square("Square1", 30.0);
-            shapeCollector.addFigure(s);
-            String expected = "Circle1, Triangle1, Square1";
-
-            String result = shapeCollector.ShowFigures();
-
-            //Then
-            Assertions.assertEquals(expected, result);
-        }
     }
 }
