@@ -1,6 +1,22 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/spring/' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin/' }
+        maven { url 'https://maven.aliyun.com/repository/spring-plugin/' }
+
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.3.0.RELEASE")
+    }
+}
+
 plugins {
-    id 'org.springframework.boot' version "2.4.1"
-    id 'io.spring.dependency-management' version "1.0.10.RELEASE"
+    id 'org.springframework.boot' version '2.3.0.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
     id 'java'
 }
 
@@ -9,11 +25,14 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
 repositories {
-    jcenter()
+    mavenLocal()
+    maven { url 'https://maven.aliyun.com/repository/google/' }
+    maven { url 'https://maven.aliyun.com/repository/public/' }
+    maven { url 'https://maven.aliyun.com/repository/spring/' }
+    maven { url 'https://maven.aliyun.com/repository/gradle-plugin/' }
+    maven { url 'https://maven.aliyun.com/repository/spring-plugin/' }
+
     mavenCentral()
-    maven {
-        url "https://plugins.gradle.org/m2/"
-    }
 }
 
 dependencies {
