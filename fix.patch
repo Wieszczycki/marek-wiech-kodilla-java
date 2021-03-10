@@ -1,0 +1,225 @@
+Index: kodilla-spring/gradle/wrapper/gradle-wrapper.properties
+===================================================================
+--- kodilla-spring/gradle/wrapper/gradle-wrapper.properties	(revision 7422ab611546dd2a478fb21f14d32282f44a8894)
++++ kodilla-spring/gradle/wrapper/gradle-wrapper.properties	(revision 7422ab611546dd2a478fb21f14d32282f44a8894)
+@@ -1,5 +0,0 @@
+-distributionBase=GRADLE_USER_HOME
+-distributionPath=wrapper/dists
+-distributionUrl=https\://services.gradle.org/distributions/gradle-6.7.1-bin.zip
+-zipStoreBase=GRADLE_USER_HOME
+-zipStorePath=wrapper/dists
+Index: kodilla-spring/.gitignore
+===================================================================
+--- kodilla-spring/.gitignore	(revision 7422ab611546dd2a478fb21f14d32282f44a8894)
++++ kodilla-spring/.gitignore	(revision 7422ab611546dd2a478fb21f14d32282f44a8894)
+@@ -1,37 +0,0 @@
+-HELP.md
+-.gradle
+-build/
+-!gradle/wrapper/gradle-wrapper.jar
+-!**/src/main/**/build/
+-!**/src/test/**/build/
+-
+-### STS ###
+-.apt_generated
+-.classpath
+-.factorypath
+-.project
+-.settings
+-.springBeans
+-.sts4-cache
+-bin/
+-!**/src/main/**/bin/
+-!**/src/test/**/bin/
+-
+-### IntelliJ IDEA ###
+-.idea
+-*.iws
+-*.iml
+-*.ipr
+-out/
+-!**/src/main/**/out/
+-!**/src/test/**/out/
+-
+-### NetBeans ###
+-/nbproject/private/
+-/nbbuild/
+-/dist/
+-/nbdist/
+-/.nb-gradle/
+-
+-### VS Code ###
+-.vscode/
+Index: kodilla-spring/settings.gradle
+===================================================================
+--- kodilla-spring/settings.gradle	(revision 7422ab611546dd2a478fb21f14d32282f44a8894)
++++ kodilla-spring/settings.gradle	(revision 7422ab611546dd2a478fb21f14d32282f44a8894)
+@@ -1,2 +0,0 @@
+-rootProject.name = 'kodilla-spring'
+-include 'kodilla-spring'
+\ No newline at end of file
+Index: kodilla-spring-web/gradle/wrapper/gradle-wrapper.properties
+===================================================================
+--- kodilla-spring-web/gradle/wrapper/gradle-wrapper.properties	(revision 7422ab611546dd2a478fb21f14d32282f44a8894)
++++ kodilla-spring-web/gradle/wrapper/gradle-wrapper.properties	(revision 7422ab611546dd2a478fb21f14d32282f44a8894)
+@@ -1,5 +0,0 @@
+-distributionBase=GRADLE_USER_HOME
+-distributionPath=wrapper/dists
+-distributionUrl=https\://services.gradle.org/distributions/gradle-6.8.2-bin.zip
+-zipStoreBase=GRADLE_USER_HOME
+-zipStorePath=wrapper/dists
+Index: kodilla-spring-web/.gitignore
+===================================================================
+--- kodilla-spring-web/.gitignore	(revision 7422ab611546dd2a478fb21f14d32282f44a8894)
++++ kodilla-spring-web/.gitignore	(revision 7422ab611546dd2a478fb21f14d32282f44a8894)
+@@ -1,37 +0,0 @@
+-HELP.md
+-.gradle
+-build/
+-!gradle/wrapper/gradle-wrapper.jar
+-!**/src/main/**/build/
+-!**/src/test/**/build/
+-
+-### STS ###
+-.apt_generated
+-.classpath
+-.factorypath
+-.project
+-.settings
+-.springBeans
+-.sts4-cache
+-bin/
+-!**/src/main/**/bin/
+-!**/src/test/**/bin/
+-
+-### IntelliJ IDEA ###
+-.idea
+-*.iws
+-*.iml
+-*.ipr
+-out/
+-!**/src/main/**/out/
+-!**/src/test/**/out/
+-
+-### NetBeans ###
+-/nbproject/private/
+-/nbbuild/
+-/dist/
+-/nbdist/
+-/.nb-gradle/
+-
+-### VS Code ###
+-.vscode/
+Index: kodilla-spring-web/settings.gradle
+===================================================================
+--- kodilla-spring-web/settings.gradle	(revision 7422ab611546dd2a478fb21f14d32282f44a8894)
++++ kodilla-spring-web/settings.gradle	(revision 7422ab611546dd2a478fb21f14d32282f44a8894)
+@@ -1,1 +0,0 @@
+-rootProject.name = 'kodilla-spring-web'
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- build.gradle	(revision 7422ab611546dd2a478fb21f14d32282f44a8894)
++++ build.gradle	(date 1615330545020)
+@@ -1,22 +1,6 @@
+-buildscript {
+-    repositories {
+-        mavenLocal()
+-        maven { url 'https://maven.aliyun.com/repository/google/' }
+-        maven { url 'https://maven.aliyun.com/repository/public/' }
+-        maven { url 'https://maven.aliyun.com/repository/spring/' }
+-        maven { url 'https://maven.aliyun.com/repository/gradle-plugin/' }
+-        maven { url 'https://maven.aliyun.com/repository/spring-plugin/' }
+-
+-        mavenCentral()
+-    }
+-    dependencies {
+-        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.3.0.RELEASE")
+-    }
+-}
+-
+ plugins {
+-    id 'org.springframework.boot' version '2.3.0.RELEASE'
+-    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
++    id 'org.springframework.boot' version '2.4.0'
++    id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+     id 'java'
+ }
+ 
+@@ -24,22 +8,13 @@
+ version = '0.0.1-SNAPSHOT'
+ sourceCompatibility = '11'
+ 
+-repositories {
+-    mavenLocal()
+-    maven { url 'https://maven.aliyun.com/repository/google/' }
+-    maven { url 'https://maven.aliyun.com/repository/public/' }
+-    maven { url 'https://maven.aliyun.com/repository/spring/' }
+-    maven { url 'https://maven.aliyun.com/repository/gradle-plugin/' }
+-    maven { url 'https://maven.aliyun.com/repository/spring-plugin/' }
+-
+-    mavenCentral()
+-}
+-
+ dependencies {
+     implementation 'org.springframework.boot:spring-boot-starter-web'
+     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+ }
+-
++repositories {
++    mavenCentral()
++}
+ test {
+     useJUnitPlatform()
+ }
+@@ -50,4 +25,4 @@
+ 
+ jar {
+     enabled = true
+-}
+\ No newline at end of file
++}
+diff --git kodilla-spring/gradle/wrapper/gradle-wrapper.jar kodilla-spring/gradle/wrapper/gradle-wrapper.jar
+deleted file mode 100644
+index e708b1c023ec8b20f512888fe07c5bd3ff77bb8f..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git kodilla-spring/gradlew kodilla-spring/gradlew
+deleted file mode 100644
+index 02640cba68b8881cb234133808bb8fa88db5856c..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git kodilla-spring/gradlew.bat kodilla-spring/gradlew.bat
+deleted file mode 100644
+index ac1b06f93825db68fb0c0b5150917f340eaa5d02..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git kodilla-spring-web/gradle/wrapper/gradle-wrapper.jar kodilla-spring-web/gradle/wrapper/gradle-wrapper.jar
+deleted file mode 100644
+index e708b1c023ec8b20f512888fe07c5bd3ff77bb8f..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git kodilla-spring-web/gradlew kodilla-spring-web/gradlew
+deleted file mode 100644
+index 02640cba68b8881cb234133808bb8fa88db5856c..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git kodilla-spring-web/gradlew.bat kodilla-spring-web/gradlew.bat
+deleted file mode 100644
+index ac1b06f93825db68fb0c0b5150917f340eaa5d02..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
