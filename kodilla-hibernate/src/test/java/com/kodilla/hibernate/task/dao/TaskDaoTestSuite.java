@@ -8,14 +8,16 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.List;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest
 public class TaskDaoTestSuite {
 
+    private static final String DESCRIPTION = "Test: Learn Hibernate";
+
     @Autowired
     private TaskDao taskDao;
-    private static final String DESCRIPTION = "Test: Learn Hibernate";
 
     @Test
     void testTaskDaoSave() {
@@ -50,4 +52,6 @@ public class TaskDaoTestSuite {
         //CleanUp
         int id = readTasks.get(0).getId();
         taskDao.deleteById(id);
-    }}
+    }
+
+}
