@@ -5,10 +5,10 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
-@NamedQuery(
-        name = "Company.retrieveCompanyNameLike",
-        query = "FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(:NAME , '%')"
-)
+//@NamedQuery(
+//       name = "Company.retrieveCompanyNameLike",
+//        query = "FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(:NAME , '%')"
+//)
 
 @Entity
 @Table(name = "COMPANIES")
