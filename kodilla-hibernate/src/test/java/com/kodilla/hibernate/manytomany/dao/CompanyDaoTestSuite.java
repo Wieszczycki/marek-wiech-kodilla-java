@@ -96,17 +96,21 @@ class CompanyDaoTestSuite {
             int greyMatterId = greyMatter.getId();
 
             List<Employee> lastName = employeeDao.retrieveEmployeeWithLastname("Kovalsky");
-            //List<Company> nameStartedWith = companyDao.retrieveCompanyNameLike("Sof");
+            //List<Company> nameStartedWith = companyDao.retrieveCompanyNameLike("Dat");
+            List<Company> nameStartedWith = companyDao.findBy3Char("Dat");
 
             //Then
-            assertEquals(2, lastName.size());
-            //assertEquals(1, nameStartedWith.size());
+            assertEquals(1, lastName.size());
+            assertEquals(2, nameStartedWith.size());
 
             //CleanUp
             try {
                 companyDao.deleteById(softwareMachineId);
                 companyDao.deleteById(dataMaestersId);
                 companyDao.deleteById(greyMatterId);
+                employeeDao.deleteById(johnSmith.getId());
+                employeeDao.deleteById(stephanieClarckson.getId());
+                employeeDao.deleteById(lindaKovalsky.getId());
             } catch (Exception e) {
                 //do nothing
             }

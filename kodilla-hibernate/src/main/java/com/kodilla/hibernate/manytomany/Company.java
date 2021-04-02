@@ -7,8 +7,15 @@ import java.util.List;
 
 //@NamedQuery(
 //       name = "Company.retrieveCompanyNameLike",
-//        query = "FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(:NAME , '%')"
+////        query = "LEFT(company_name, 3) FROM COMPANIES WHERE LEFT(company_name, 3)=:NAME"
+//        query = "FROM COMPANIES WHERE COMPANIES.COMPANY_NAME LIKE ':NAME%'"
 //)
+@NamedNativeQuery(
+        name = "Company.findBy3Char",
+        query = "SELECT * FROM kodilla_course.companies WHERE LEFT(COMPANY_NAME,3) = :THREECHAR",
+        resultClass = Company.class
+)
+
 
 @Entity
 @Table(name = "COMPANIES")
