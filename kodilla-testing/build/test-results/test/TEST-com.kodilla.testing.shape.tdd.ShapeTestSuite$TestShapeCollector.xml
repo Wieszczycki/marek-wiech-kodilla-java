@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests for shapeCollector" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-23T02:25:38" hostname="ANSIBL-AORUS" time="0.009">
+  <properties/>
+  <testcase name="Should display all figures names in 1 String" classname="com.kodilla.testing.shape.tdd.ShapeTestSuite$TestShapeCollector" time="0.006"/>
+  <testcase name="Removing figure should result in 0 figures inside Array" classname="com.kodilla.testing.shape.tdd.ShapeTestSuite$TestShapeCollector" time="0.0"/>
+  <testcase name="Adding figure should result in 1 figure inside Array" classname="com.kodilla.testing.shape.tdd.ShapeTestSuite$TestShapeCollector" time="0.0"/>
+  <testcase name="Removing non-existing figure should result in false result" classname="com.kodilla.testing.shape.tdd.ShapeTestSuite$TestShapeCollector" time="0.0"/>
+  <testcase name="Getting figure n should result in correct figure in response" classname="com.kodilla.testing.shape.tdd.ShapeTestSuite$TestShapeCollector" time="0.001"/>
+  <system-out><![CDATA[Collection Case: test #1
+Circle1, Triangle1, Square1
+Collection Case: end
+
+Collection Case: test #2
+true
+Collection Case: end
+
+Collection Case: test #3
+Collection Case: end
+
+Collection Case: test #4
+Collection Case: end
+
+Collection Case: test #5
+Collection Case: end
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

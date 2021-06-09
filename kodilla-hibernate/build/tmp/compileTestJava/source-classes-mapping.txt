@@ -1,0 +1,12 @@
+com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java
+ com.kodilla.hibernate.tasklist.dao.TaskListDaoTestSuite
+com/kodilla/hibernate/invoice/dao/InvoiceDaoTestSuite.java
+ com.kodilla.hibernate.invoice.dao.InvoiceDaoTestSuite
+com/kodilla/hibernate/KodillaHibernateApplicationTests.java
+ com.kodilla.hibernate.KodillaHibernateApplicationTests
+com/kodilla/hibernate/task/dao/TaskDaoTestSuite.java
+ com.kodilla.hibernate.task.dao.TaskDaoTestSuite
+com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java
+ com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite
+com/kodilla/hibernate/task/dao/TaskFinancialDetailsDaoTestSuite.java
+ com.kodilla.hibernate.task.dao.TaskFinancialDetailsDaoTestSuite

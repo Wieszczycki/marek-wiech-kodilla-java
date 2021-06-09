@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-course.kodilla-exception.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-course.kodilla-exception.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-course.kodilla-exception.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-exception/kodilla-course.kodilla-exception.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-hibernate/kodilla-course.kodilla-hibernate.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate/kodilla-course.kodilla-hibernate.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-hibernate/kodilla-course.kodilla-hibernate.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate/kodilla-course.kodilla-hibernate.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla-course.kodilla-spring-intro.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla-course.kodilla-spring-intro.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla-course.kodilla-spring-web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla-course.kodilla-spring-web.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla-course.kodilla-spring-web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-web/kodilla-course.kodilla-spring-web.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-patterns.iml" />
+    </modules>
+  </component>
+</project>

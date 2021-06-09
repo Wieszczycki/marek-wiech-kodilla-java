@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.good.patterns.flighthunt.FlightHunterTestSuite" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-23T01:25:00" hostname="ANSIBL-AORUS" time="0.032">
+  <properties/>
+  <testcase name="testAllArrivalAirportConnectionsFalse()" classname="com.kodilla.good.patterns.flighthunt.FlightHunterTestSuite" time="0.02"/>
+  <testcase name="testAllArrivalAirportConnectionsTrue()" classname="com.kodilla.good.patterns.flighthunt.FlightHunterTestSuite" time="0.002"/>
+  <testcase name="testAllDepartureAirportConnectionsTrue()" classname="com.kodilla.good.patterns.flighthunt.FlightHunterTestSuite" time="0.001"/>
+  <testcase name="testAllDepartureAirportConnectionsFalse()" classname="com.kodilla.good.patterns.flighthunt.FlightHunterTestSuite" time="0.001"/>
+  <testcase name="testChangeTrue()" classname="com.kodilla.good.patterns.flighthunt.FlightHunterTestSuite" time="0.007"/>
+  <testcase name="testChangeFalse()" classname="com.kodilla.good.patterns.flighthunt.FlightHunterTestSuite" time="0.001"/>
+  <system-out><![CDATA[Collection SUITE: begin
+
+Collection Case: test #1
+Collection Case: end
+
+Collection Case: test #2
+Collection Case: end
+
+Collection Case: test #3
+Collection Case: end
+
+Collection Case: test #4
+Collection Case: end
+
+Collection Case: test #5
+[flight from: WAW to: KRK, flight from: KRK to: WRO]
+Collection Case: end
+
+Collection Case: test #6
+[flight from: WAW to: POZ]
+Collection Case: end
+
+Collection SUITE: end
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,205 @@
+qBigmac{bun='buĹ‚ka z sezamem', burgers=3, sauce='1000 wysp', ingredients=[ONION, CHILLI, PICKLE, MUSHROOMS]}
+QBigmac{bun='buĹ‚ka bez sezamu', burgers=2, sauce='barbecue', ingredients=[]}
+ |  |  |wQ|wP|  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |  |  |  |
+ |  |  |  |  |  |  |  |bP|  |  |
+
+JPizza{bottom='Thin', sauce='Spicy', ingredients=[Onion, Ham, Mushrooms]}
+Board [Project number 1]
+   List [Done Tasks]
+     Task [Done Task number 1]
+     Task [Done Task number 2]
+     Task [Done Task number 3]
+     Task [Done Task number 4]
+     Task [Done Task number 5]
+     Task [Done Task number 6]
+     Task [Done Task number 7]
+     Task [Done Task number 8]
+     Task [Done Task number 9]
+      Task [Done Task number 10]
+   List [To Do Tasks]
+      Task [To Do Task number 1]
+      Task [To Do Task number 2]
+      Task [To Do Task number 3]
+      Task [To Do Task number 4]
+      Task [To Do Task number 5]
+      Task [To Do Task number 6]
+      Task [To Do Task number 7]
+      Task [To Do Task number 8]
+      Task [To Do Task number 9]
+!     Task [To Do Task number 10]
+   List [In Progress Tasks]
+&     Task [In Progress Task number 1]
+&     Task [In Progress Task number 2]
+&     Task [In Progress Task number 3]
+&     Task [In Progress Task number 4]
+&     Task [In Progress Task number 5]
+&     Task [In Progress Task number 6]
+&     Task [In Progress Task number 7]
+&     Task [In Progress Task number 8]
+&     Task [In Progress Task number 9]
+'     Task [In Progress Task number 10]
+
+Board [Project number 2]
+   List [Done Tasks]
+     Task [Done Task number 1]
+     Task [Done Task number 2]
+     Task [Done Task number 3]
+     Task [Done Task number 4]
+     Task [Done Task number 5]
+     Task [Done Task number 6]
+     Task [Done Task number 7]
+     Task [Done Task number 8]
+     Task [Done Task number 9]
+      Task [Done Task number 10]
+   List [To Do Tasks]
+      Task [To Do Task number 1]
+      Task [To Do Task number 2]
+      Task [To Do Task number 3]
+      Task [To Do Task number 4]
+      Task [To Do Task number 5]
+      Task [To Do Task number 6]
+      Task [To Do Task number 7]
+      Task [To Do Task number 8]
+      Task [To Do Task number 9]
+!     Task [To Do Task number 10]
+   List [In Progress Tasks]
+&     Task [In Progress Task number 1]
+&     Task [In Progress Task number 2]
+&     Task [In Progress Task number 3]
+&     Task [In Progress Task number 4]
+&     Task [In Progress Task number 5]
+&     Task [In Progress Task number 6]
+&     Task [In Progress Task number 7]
+&     Task [In Progress Task number 8]
+&     Task [In Progress Task number 9]
+'     Task [In Progress Task number 10]
+
+Board [Project number 3]
+   List [Done Tasks]
+     Task [Done Task number 1]
+     Task [Done Task number 2]
+     Task [Done Task number 3]
+     Task [Done Task number 4]
+     Task [Done Task number 5]
+     Task [Done Task number 6]
+     Task [Done Task number 7]
+     Task [Done Task number 8]
+     Task [Done Task number 9]
+      Task [Done Task number 10]
+   List [To Do Tasks]
+      Task [To Do Task number 1]
+      Task [To Do Task number 2]
+      Task [To Do Task number 3]
+      Task [To Do Task number 4]
+      Task [To Do Task number 5]
+      Task [To Do Task number 6]
+      Task [To Do Task number 7]
+      Task [To Do Task number 8]
+      Task [To Do Task number 9]
+!     Task [To Do Task number 10]
+   List [In Progress Tasks]
+&     Task [In Progress Task number 1]
+&     Task [In Progress Task number 2]
+&     Task [In Progress Task number 3]
+&     Task [In Progress Task number 4]
+&     Task [In Progress Task number 5]
+&     Task [In Progress Task number 6]
+&     Task [In Progress Task number 7]
+&     Task [In Progress Task number 8]
+&     Task [In Progress Task number 9]
+'     Task [In Progress Task number 10]
+
+Library [Amejzon]
+CBook{title='Title1', author='Author1', publicationDate=2001-01-01}
+CBook{title='Title2', author='Author2', publicationDate=2002-01-01}
+CBook{title='Title3', author='Author3', publicationDate=2003-01-01}
+CBook{title='Title4', author='Author4', publicationDate=2004-01-01}
+CBook{title='Title5', author='Author5', publicationDate=2005-01-01}
+CBook{title='Title6', author='Author6', publicationDate=2006-01-01}
+CBook{title='Title7', author='Author7', publicationDate=2007-01-01}
+CBook{title='Title8', author='Author8', publicationDate=2008-01-01}
+CBook{title='Title9', author='Author9', publicationDate=2009-01-01}
+EBook{title='Title10', author='Author10', publicationDate=2010-01-01}
+
+Library [Shallow Merlin]
+CBook{title='Title1', author='Author1', publicationDate=2001-01-01}
+CBook{title='Title2', author='Author2', publicationDate=2002-01-01}
+CBook{title='Title3', author='Author3', publicationDate=2003-01-01}
+CBook{title='Title4', author='Author4', publicationDate=2004-01-01}
+CBook{title='Title5', author='Author5', publicationDate=2005-01-01}
+CBook{title='Title6', author='Author6', publicationDate=2006-01-01}
+CBook{title='Title7', author='Author7', publicationDate=2007-01-01}
+CBook{title='Title8', author='Author8', publicationDate=2008-01-01}
+CBook{title='Title9', author='Author9', publicationDate=2009-01-01}
+EBook{title='Title10', author='Author10', publicationDate=2010-01-01}
+
+Library [Deep Merlin]
+CBook{title='Title1', author='Author1', publicationDate=2001-01-01}
+CBook{title='Title2', author='Author2', publicationDate=2002-01-01}
+CBook{title='Title3', author='Author3', publicationDate=2003-01-01}
+CBook{title='Title4', author='Author4', publicationDate=2004-01-01}
+CBook{title='Title5', author='Author5', publicationDate=2005-01-01}
+CBook{title='Title6', author='Author6', publicationDate=2006-01-01}
+CBook{title='Title7', author='Author7', publicationDate=2007-01-01}
+CBook{title='Title8', author='Author8', publicationDate=2008-01-01}
+CBook{title='Title9', author='Author9', publicationDate=2009-01-01}
+EBook{title='Title10', author='Author10', publicationDate=2010-01-01}
+
+Library [Amejzon]
+CBook{title='Title1', author='Author1', publicationDate=2001-01-01}
+CBook{title='Title2', author='Author2', publicationDate=2002-01-01}
+CBook{title='Title3', author='Author3', publicationDate=2003-01-01}
+CBook{title='Title4', author='Author4', publicationDate=2004-01-01}
+CBook{title='Title5', author='Author5', publicationDate=2005-01-01}
+CBook{title='Title6', author='Author6', publicationDate=2006-01-01}
+CBook{title='Title7', author='Author7', publicationDate=2007-01-01}
+CBook{title='Title8', author='Author8', publicationDate=2008-01-01}
+CBook{title='Title9', author='Author9', publicationDate=2009-01-01}
+
+Library [Shallow Merlin]
+CBook{title='Title1', author='Author1', publicationDate=2001-01-01}
+CBook{title='Title2', author='Author2', publicationDate=2002-01-01}
+CBook{title='Title3', author='Author3', publicationDate=2003-01-01}
+CBook{title='Title4', author='Author4', publicationDate=2004-01-01}
+CBook{title='Title5', author='Author5', publicationDate=2005-01-01}
+CBook{title='Title6', author='Author6', publicationDate=2006-01-01}
+CBook{title='Title7', author='Author7', publicationDate=2007-01-01}
+CBook{title='Title8', author='Author8', publicationDate=2008-01-01}
+CBook{title='Title9', author='Author9', publicationDate=2009-01-01}
+
+Library [Deep Merlin]
+CBook{title='Title1', author='Author1', publicationDate=2001-01-01}
+CBook{title='Title2', author='Author2', publicationDate=2002-01-01}
+CBook{title='Title3', author='Author3', publicationDate=2003-01-01}
+CBook{title='Title4', author='Author4', publicationDate=2004-01-01}
+CBook{title='Title5', author='Author5', publicationDate=2005-01-01}
+CBook{title='Title6', author='Author6', publicationDate=2006-01-01}
+CBook{title='Title7', author='Author7', publicationDate=2007-01-01}
+CBook{title='Title8', author='Author8', publicationDate=2008-01-01}
+CBook{title='Title9', author='Author9', publicationDate=2009-01-01}
+EBook{title='Title10', author='Author10', publicationDate=2010-01-01}
+
+ 4Log: [Rewelacyjny przykĹ‚ad logowania niczego.]
+ Opening the settings file
+Saving settings to file
+Loading settings from file
+Opened: myapp.settings
+ Closing the settings file
+>Steven should:[Conservative predictor] Buy debentures of XYZ
+<Steven now should: [Aggressive predictor] Buy stock of XYZ
+?Steven should: [Conservative predictor] Buy debentures of XYZ
+6John should: [Aggressive predictor] Buy stock of XYZ
+CKodilla should: [Balanced predictor] Buy shared units of Fund XYZ
+Marysia shares on: Facebook
+Krzys shares on: Twitter
+Jessika shares on: Snapchat
+Jessika shares on: Snapchat
+!Jessika NOW shares on: Facebook

@@ -1,0 +1,34 @@
+com/kodilla/hibernate/tasklist/TaskList.java
+ com.kodilla.hibernate.tasklist.TaskList
+com/kodilla/hibernate/task/Task.java
+ com.kodilla.hibernate.task.Task
+com/kodilla/hibernate/tasklist/dao/TaskListDao.java
+ com.kodilla.hibernate.tasklist.dao.TaskListDao
+com/kodilla/hibernate/invoice/dao/InvoiceDao.java
+ com.kodilla.hibernate.invoice.dao.InvoiceDao
+com/kodilla/hibernate/manytomany/Company.java
+ com.kodilla.hibernate.manytomany.Company
+com/kodilla/hibernate/invoice/Item.java
+ com.kodilla.hibernate.invoice.Item
+com/kodilla/hibernate/invoice/dao/ProductDao.java
+ com.kodilla.hibernate.invoice.dao.ProductDao
+com/kodilla/hibernate/task/dao/TaskFinancialDetailsDao.java
+ com.kodilla.hibernate.task.dao.TaskFinancialDetailsDao
+com/kodilla/hibernate/manytomany/dao/EmployeeDao.java
+ com.kodilla.hibernate.manytomany.dao.EmployeeDao
+com/kodilla/hibernate/invoice/Invoice.java
+ com.kodilla.hibernate.invoice.Invoice
+com/kodilla/hibernate/KodillaHibernateApplication.java
+ com.kodilla.hibernate.KodillaHibernateApplication
+com/kodilla/hibernate/manytomany/dao/CompanyDao.java
+ com.kodilla.hibernate.manytomany.dao.CompanyDao
+com/kodilla/hibernate/task/dao/TaskDao.java
+ com.kodilla.hibernate.task.dao.TaskDao
+com/kodilla/hibernate/task/TaskFinancialDetails.java
+ com.kodilla.hibernate.task.TaskFinancialDetails
+com/kodilla/hibernate/invoice/dao/ItemDao.java
+ com.kodilla.hibernate.invoice.dao.ItemDao
+com/kodilla/hibernate/manytomany/Employee.java
+ com.kodilla.hibernate.manytomany.Employee
+com/kodilla/hibernate/invoice/Product.java
+ com.kodilla.hibernate.invoice.Product

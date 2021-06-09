@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.weather.mock.WeatherForecastTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-23T02:25:38" hostname="ANSIBL-AORUS" time="0.011">
+  <properties/>
+  <testcase name="testCalculateAvgTempWithMock" classname="com.kodilla.testing.weather.mock.WeatherForecastTestSuite" time="0.007"/>
+  <testcase name="testCalculateTempMedianWithMock" classname="com.kodilla.testing.weather.mock.WeatherForecastTestSuite" time="0.004"/>
+  <testcase name="testCalculateForecastWithMock" classname="com.kodilla.testing.weather.mock.WeatherForecastTestSuite" time="0.0"/>
+  <system-out><![CDATA[Collection Case: test #1
+sum = 127.8
+counter = 5
+avgTemp = 25.56
+
+Collection Case: test #2
+tempSize = 5, values:
+24.8
+25.2
+26.1
+26.2
+25.5
+tempSet sorted: 
+24.8
+25.2
+25.5
+26.1
+26.2
+median = 25.5
+
+Collection Case: test #3
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

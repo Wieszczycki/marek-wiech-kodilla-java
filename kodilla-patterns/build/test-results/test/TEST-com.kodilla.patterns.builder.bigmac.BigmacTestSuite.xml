@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.builder.bigmac.BigmacTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-23T02:25:26" hostname="ANSIBL-AORUS" time="0.034">
+  <properties/>
+  <testcase name="testBigmacNew()" classname="com.kodilla.patterns.builder.bigmac.BigmacTestSuite" time="0.033"/>
+  <testcase name="testBigmacWithoutIngredients()" classname="com.kodilla.patterns.builder.bigmac.BigmacTestSuite" time="0.001"/>
+  <system-out><![CDATA[Bigmac{bun='buĹ‚ka z sezamem', burgers=3, sauce='1000 wysp', ingredients=[ONION, CHILLI, PICKLE, MUSHROOMS]}
+Bigmac{bun='buĹ‚ka bez sezamu', burgers=2, sauce='barbecue', ingredients=[]}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.stream.portfolio.BoardTestSuite" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-23T02:25:36" hostname="ANSIBL-AORUS" time="0.024">
+  <properties/>
+  <testcase name="testAddTaskList()" classname="com.kodilla.stream.portfolio.BoardTestSuite" time="0.007"/>
+  <testcase name="testAddTaskListAverageWorkingOnTask()" classname="com.kodilla.stream.portfolio.BoardTestSuite" time="0.007"/>
+  <testcase name="testAddTaskListFindUsersTasks()" classname="com.kodilla.stream.portfolio.BoardTestSuite" time="0.001"/>
+  <testcase name="testAddTaskListFindLongTasks()" classname="com.kodilla.stream.portfolio.BoardTestSuite" time="0.001"/>
+  <testcase name="testAddTaskListFindOutdatedTasks()" classname="com.kodilla.stream.portfolio.BoardTestSuite" time="0.007"/>
+  <system-out><![CDATA[sumOfDays = 30
+sumOfUndoneTasks = 3
+avg = 10.0
+[TaskList{tasks=[], name='To do'}, TaskList{tasks=[], name='In progress'}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

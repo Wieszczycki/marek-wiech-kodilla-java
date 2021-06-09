@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.exception.test.SecondChallengeTestSuite" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-03-23T01:24:59" hostname="ANSIBL-AORUS" time="0.005">
+  <properties/>
+  <testcase name="testXcorrect_Yequals1_5()" classname="com.kodilla.exception.test.SecondChallengeTestSuite" time="0.001"/>
+  <testcase name="testXabove2_Ycorrect()" classname="com.kodilla.exception.test.SecondChallengeTestSuite" time="0.0"/>
+  <testcase name="testXunder1_Ycorrect()" classname="com.kodilla.exception.test.SecondChallengeTestSuite" time="0.0"/>
+  <testcase name="testAllCorrect()" classname="com.kodilla.exception.test.SecondChallengeTestSuite" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

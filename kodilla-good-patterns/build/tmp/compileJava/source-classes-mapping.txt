@@ -1,0 +1,70 @@
+com/kodilla/good/patterns/srp/Application.java
+ com.kodilla.good.patterns.srp.Application
+com/kodilla/good/patterns/srp/ProductOrderRequestRetriever.java
+ com.kodilla.good.patterns.srp.ProductOrderRequestRetriever
+com/kodilla/good/patterns/food2door/InformationService.java
+ com.kodilla.good.patterns.food2door.InformationService
+com/kodilla/good/patterns/flighthunt/FlightHunter.java
+ com.kodilla.good.patterns.flighthunt.FlightHunter
+com/kodilla/good/patterns/srp/ProductOrderService.java
+ com.kodilla.good.patterns.srp.ProductOrderService
+com/kodilla/good/patterns/food2door/VoiceService.java
+ com.kodilla.good.patterns.food2door.VoiceService
+com/kodilla/good/patterns/srp/ProductOrderRepository.java
+ com.kodilla.good.patterns.srp.ProductOrderRepository
+com/kodilla/good/patterns/srp/ProductHardware.java
+ com.kodilla.good.patterns.srp.ProductHardware
+com/kodilla/good/patterns/srp/User.java
+ com.kodilla.good.patterns.srp.User
+com/kodilla/good/patterns/food2door/OrderDto.java
+ com.kodilla.good.patterns.food2door.OrderDto
+com/kodilla/good/patterns/srp/ProductAnimal.java
+ com.kodilla.good.patterns.srp.ProductAnimal
+com/kodilla/good/patterns/srp/Product.java
+ com.kodilla.good.patterns.srp.Product
+com/kodilla/good/patterns/food2door/provider/ProviderServiceGlutenFreeShop.java
+ com.kodilla.good.patterns.food2door.provider.ProviderServiceGlutenFreeShop
+com/kodilla/good/patterns/srp/ProductOrderServiceAnimal.java
+ com.kodilla.good.patterns.srp.ProductOrderServiceAnimal
+com/kodilla/good/patterns/flighthunt/FlightsDatabase.java
+ com.kodilla.good.patterns.flighthunt.FlightsDatabase
+com/kodilla/good/patterns/food2door/Product.java
+ com.kodilla.good.patterns.food2door.Product
+com/kodilla/good/patterns/srp/ProductOrderServiceHardware.java
+ com.kodilla.good.patterns.srp.ProductOrderServiceHardware
+com/kodilla/good/patterns/food2door/Food2DoorApplication.java
+ com.kodilla.good.patterns.food2door.Food2DoorApplication
+com/kodilla/good/patterns/flighthunt/Flight.java
+ com.kodilla.good.patterns.flighthunt.Flight
+com/kodilla/good/patterns/srp/ProductOrderProcessor.java
+ com.kodilla.good.patterns.srp.ProductOrderProcessor
+com/kodilla/good/patterns/srp/ProductOrderRepositoryAnimal.java
+ com.kodilla.good.patterns.srp.ProductOrderRepositoryAnimal
+com/kodilla/good/patterns/food2door/OrderRequest.java
+ com.kodilla.good.patterns.food2door.OrderRequest
+com/kodilla/good/patterns/food2door/provider/ProviderServiceExtraFoodShop.java
+ com.kodilla.good.patterns.food2door.provider.ProviderServiceExtraFoodShop
+com/kodilla/good/patterns/srp/ProductOrderDto.java
+ com.kodilla.good.patterns.srp.ProductOrderDto
+com/kodilla/good/patterns/srp/ProductOrderRequest.java
+ com.kodilla.good.patterns.srp.ProductOrderRequest
+com/kodilla/good/patterns/food2door/MailService.java
+ com.kodilla.good.patterns.food2door.MailService
+com/kodilla/good/patterns/food2door/Food2DoorProcessor.java
+ com.kodilla.good.patterns.food2door.Food2DoorProcessor
+com/kodilla/good/patterns/food2door/provider/ProviderService.java
+ com.kodilla.good.patterns.food2door.provider.ProviderService
+com/kodilla/good/patterns/srp/InformationService.java
+ com.kodilla.good.patterns.srp.InformationService
+com/kodilla/good/patterns/food2door/RepositoryService.java
+ com.kodilla.good.patterns.food2door.RepositoryService
+com/kodilla/good/patterns/srp/ProductOrderRepositoryHardware.java
+ com.kodilla.good.patterns.srp.ProductOrderRepositoryHardware
+com/kodilla/good/patterns/food2door/provider/ProviderServiceHealthyShop.java
+ com.kodilla.good.patterns.food2door.provider.ProviderServiceHealthyShop
+com/kodilla/good/patterns/challenges/MovieStore.java
+ com.kodilla.good.patterns.challenges.MovieStore
+com/kodilla/good/patterns/food2door/DatabaseRepository.java
+ com.kodilla.good.patterns.food2door.DatabaseRepository
+com/kodilla/good/patterns/srp/MailService.java
+ com.kodilla.good.patterns.srp.MailService

@@ -1,0 +1,2 @@
+com/kodilla/good/patterns/flighthunt/FlightHunterTestSuite.java
+ com.kodilla.good.patterns.flighthunt.FlightHunterTestSuite

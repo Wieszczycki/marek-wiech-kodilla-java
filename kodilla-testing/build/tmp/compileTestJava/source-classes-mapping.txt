@@ -1,0 +1,25 @@
+com/kodilla/testing/forum/ForumTestSuite.java
+ com.kodilla.testing.forum.ForumTestSuite
+com/kodilla/testing/weather/stub/WeatherForecastTestSuite.java
+ com.kodilla.testing.weather.stub.WeatherForecastTestSuite
+com/kodilla/testing/collection/CollectionTestSuite.java
+ com.kodilla.testing.collection.CollectionTestSuite
+ com.kodilla.testing.collection.CollectionTestSuite$OddNumbersExterminatorTestSuite
+ com.kodilla.testing.collection.CollectionTestSuite$OddNumbersExterminatorTestSuite$1
+com/kodilla/testing/shape/tdd/ShapeTestSuite.java
+ com.kodilla.testing.shape.tdd.ShapeTestSuite
+ com.kodilla.testing.shape.tdd.ShapeTestSuite$TestShapeCollector
+com/kodilla/testing/forum/tdd/ForumTestSuite.java
+ com.kodilla.testing.forum.tdd.ForumTestSuite
+ com.kodilla.testing.forum.tdd.ForumTestSuite$TestPosts
+com/kodilla/testing/library/BookDirectoryTestSuite.java
+ com.kodilla.testing.library.BookDirectoryTestSuite
+com/kodilla/testing/weather/mock/WeatherForecastTestSuite.java
+ com.kodilla.testing.weather.mock.WeatherForecastTestSuite
+com/kodilla/testing/forum/statistics/ForumStatisticsTestSuite.java
+ com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite
+ com.kodilla.testing.forum.statistics.ForumStatisticsTestSuite$TestPosts
+com/kodilla/testing/weather/stub/TemperaturesStub.java
+ com.kodilla.testing.weather.stub.TemperaturesStub
+com/kodilla/testing/loop/testLoopAndConditionalBreakpoints.java
+ com.kodilla.testing.loop.testLoopAndConditionalBreakpoints
