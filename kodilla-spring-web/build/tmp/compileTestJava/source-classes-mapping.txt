@@ -1,2 +1,0 @@
-com/kodilla/spring/web/KodillaSpringWebApplicationTests.java
- com.kodilla.spring.web.KodillaSpringWebApplicationTests
