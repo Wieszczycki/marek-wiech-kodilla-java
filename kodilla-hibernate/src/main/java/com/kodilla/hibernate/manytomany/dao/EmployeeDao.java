@@ -1,5 +1,6 @@
 package com.kodilla.hibernate.manytomany.dao;
 
+import com.kodilla.hibernate.manytomany.Company;
 import com.kodilla.hibernate.manytomany.Employee;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
@@ -16,6 +17,6 @@ public interface EmployeeDao extends CrudRepository<Employee, Integer> {
     @Query
     List<Employee> retrieveEmployeeWithLastname(@Param("LASTNAME") String lastname);
 
-//    @Query(nativeQuery = true)
-//    List<Employee> findByAnyPartOfName(@Param("ANYPARTOFNAME") String anyPartOfName);
+    @Query(nativeQuery = true)
+    List<Employee> findByAnyPartOfName(@Param("ARG") String name);
 }

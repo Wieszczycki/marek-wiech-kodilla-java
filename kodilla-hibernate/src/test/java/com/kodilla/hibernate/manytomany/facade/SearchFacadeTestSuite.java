@@ -50,7 +50,6 @@ public class SearchFacadeTestSuite {
         lindaSmith.getCompanies().add(softDataMasters);
         lindaSmith.getCompanies().add(greyMatter);
 
-        //System.out.println(softwareMachine);
         companyDao.save(softwareMachine);
         companyDao.save(softDataMasters);
         companyDao.save(greyMatter);
@@ -76,13 +75,32 @@ public class SearchFacadeTestSuite {
 
     }
 
-//    @Test
-//    public void retrieveEmployeeLikeTest() {
-//        //Given
-//
-//        //When
-//        List<Employee> employees = findFacade.findNameOfEmployeeByAnyPartOfName("mith");
-//        //Then
-//        Assert.assertEquals(2, employees.size());
-//    }
+    @Test
+    public void retrieveEmployeeLikeTest() {
+        //Given
+        Employee johnSmith = new Employee("John", "Smith");
+        Employee stephanieClarckson = new Employee("Stephanie", "Clarckson");
+        Employee lindaSmith = new Employee("Linda", "Smith");
+
+        employees.add(johnSmith);
+        employees.add(stephanieClarckson);
+        employees.add(lindaSmith);
+
+        employeeDao.save(johnSmith);
+        employeeDao.save(stephanieClarckson);
+        employeeDao.save(lindaSmith);
+
+        //When
+        List<Employee> employees = searchFacade.searchEmployeeLike("mith");
+        //Then
+        assertEquals(2, employees.size());
+        //CleanUp
+        try {
+            employeeDao.delete(johnSmith);
+            employeeDao.delete(stephanieClarckson);
+            employeeDao.delete(lindaSmith);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
 }

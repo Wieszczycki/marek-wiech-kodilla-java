@@ -1,6 +1,7 @@
 package com.kodilla.hibernate.manytomany.facade;
 
 import com.kodilla.hibernate.manytomany.Company;
+import com.kodilla.hibernate.manytomany.Employee;
 import com.kodilla.hibernate.manytomany.dao.CompanyDao;
 import com.kodilla.hibernate.manytomany.dao.EmployeeDao;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +21,8 @@ public final class SearchFacade {
         return companyDao.findByAnyPartOfName(nameChunk);
     }
 
-//    public List<Employee> retrieveEmployeeLike(String fragmentOfTheName){
-//        return employeeDao.retrieveEmployeeLike(fragmentOfTheName);
-//    }
+    public List<Employee> searchEmployeeLike(String nameChunk) {
+        return employeeDao.findByAnyPartOfName(nameChunk);
+    }
+
 }
